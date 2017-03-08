@@ -2,17 +2,38 @@ header
 {
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-right: 5px;
   display: inline-block;
   text-align: right;
   width: 100%;
   height: 40px;
   background-color: rgba(12, 126, 30, 1);
 }
-
 div
 {
   display: inline-block;
+  width: 100px;
+  background-color: white;
 }
+
+.carre
+{
+  height: 16px;
+  width: 16px;
+  display : block;
+  background : url("iconcarregris.png") no-repeat;
+}
+
+.carre:hover
+{
+  height: 16px;
+  width: 16px;
+  display : block;
+  background : url("iconcarrenoir.png") no-repeat;
+}
+
+
+
 
 a
 {
@@ -86,11 +107,6 @@ footer
   height: 60px;
 }
 
-div
-{
-  display: inline-block;
-  width: 300px;
-  background-color: brown;
 }
 
 .left
