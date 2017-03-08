@@ -8,16 +8,15 @@ html
 
 header
 {
-  margin-top: 2px;
-  margin-right: 15px;
-  padding-top: 20px;
+  margin-right: 11px;
+  padding-top: 8px;
   padding-bottom: 5px;
-  padding-right: 2px;
   display: inline-block;
   text-align: right;
+  vertical-align: middle;
   width: 98%;
   height: 40px;
-  background-color: rgba(12, 126, 30, 1);
+  background-color: white;
 }
 
 div
@@ -27,11 +26,26 @@ div
   background-color: white;
 }
 
+.images
+{
+  width:50px;
+  margin:3px;
+  font-size: 12px;
+}
+.gmail
+{
+  width:50px;
+  margin:3px;
+  font-size: 12px;
+}
+
 .carre
 {
+  margin:12px;
   height: 16px;
   width: 16px;
   display : inline-block;
+  vertical-align: middle;
   background : url("iconcarregris.png") no-repeat;
 }
 
@@ -54,8 +68,8 @@ a
 
 button
 {
-  width: 90px;
-  height: 27px;
+  width: 94px;
+  height: 30px;
   color: white;
   border: none;
   border-radius: 2px;
@@ -115,7 +129,7 @@ width: 300px;
 footer
 {
   background-color: green;
-  height: 60px;
+  height: 30px;
 }
 
 }
