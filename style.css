@@ -23,12 +23,12 @@ header
   background-color: white;
 }
 
-div
+div                          /*boutons gmail images carré connexion*/
 {
   display: inline-block;
   width: 100px;
-  background-color: white;
 }
+
 
 .images
 {
@@ -53,7 +53,7 @@ div
   background : url("iconcarregris.png") no-repeat;
 }
 
-.carre:hover
+.carre:hover                      /*Survol du carré changement couleur*/
 {
   height: 16px;
   width: 16px;
@@ -62,13 +62,18 @@ div
 }
 
 
-a
+a                        /*couleur de tous les liens noir*/
 {
   text-decoration: none;
   color:black;
 }
 
-button
+a:hover               /*survol des liens : souligner*/
+{
+  text-decoration: underline;
+}
+
+button           /*bouton connexion*/
 {
   width: 94px;
   height: 30px;
@@ -81,10 +86,6 @@ button
 }
 
 
-a:hover
-{
-  text-decoration: underline;
-}
 
 section
 {
@@ -92,7 +93,7 @@ section
   height: 430px;
 }
 
-.articleclass
+.articleclass        /*box image principale google*/
 {
   width: 40%;
   background-color:white;
@@ -113,7 +114,7 @@ img
   width:300px;
 }
 
-.recherche
+.recherche            /*box searchbar*/
 {
   margin-top: 30px;
   width: 100%;
@@ -121,7 +122,7 @@ img
   background-color: white;
 }
 
-input
+input                 /*Searchbar*/
 {
   display: block;
   margin: auto;
@@ -132,7 +133,7 @@ input
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-input:hover
+input:hover           /*Survol searchbar*/
 {
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2)
 }
@@ -142,14 +143,14 @@ article button
   display: inline-block;
 }
 
-.boutons
+.boutons      /* box 2 boutons searchbar*/
 {
  margin-top: 17px;
  text-align: center;
  height: 40px;
 }
 
-.boutons button
+.boutons button    /*2 boutons searchbar*/
 {
   height: 36px;
   width: 157px;
@@ -174,7 +175,7 @@ footer
 }
 
 
-.left
+.left                    /*3 boutons footer left*/
 {
   display: inline-block;
   float: left;
@@ -182,7 +183,7 @@ footer
   height: 20px;
 }
 
-.right
+.right                   /*3 boutons footer right*/
 {
   display: inline-block;
   float: right;
