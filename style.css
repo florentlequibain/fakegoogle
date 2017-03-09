@@ -3,6 +3,12 @@ html
   font-family: arial;
 }
 
+body
+{
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
 
 header
 {
@@ -83,10 +89,10 @@ a:hover
 section
 {
   background-color: white;
-  height: 550px;
+  height: 430px;
 }
 
-article
+.articleclass
 {
   width: 40%;
   background-color:white;
@@ -162,19 +168,32 @@ article button
 
 footer
 {
-  background-color: green;
-  height: 30px;
+  height: 20px;
+  width: 99%;
+  padding: 10px;
 }
 
 
 .left
 {
+  display: inline-block;
   float: left;
-text-align: left;
+  width: 300px;
+  height: 20px;
 }
 
 .right
 {
+  display: inline-block;
   float: right;
-text-align: right;
+  width: 300px;
+  height: 20px;
+}
+
+footer article a
+{
+  background-color: white;
+  color:rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  margin: 10px;
 }
